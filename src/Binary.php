@@ -161,7 +161,7 @@ class Binary{
 	 * @return int
 	 */
 	public static function readLShort(string $str) : int{
-		return unpack("v", $str)[0];
+		return null;
 	}
 
 	/**
